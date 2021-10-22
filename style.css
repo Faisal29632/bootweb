@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.header{
+    height: 100vh;
+
+}
+.navbar-style{
+    box-shadow: 0 5px 10px #0c0a0a ;
+    text-transform: capitalize;
+}
+.logo{
+    height: 50px;
+    padding: 2px 25px;
+}
+.icon-bar{
+    background: black;
+
+}
+li a{
+    color: blue;
+}
+.big-text{
+    font-size: 52px;
+    margin: 20px 0px;
+    color: skyblue;
+
+}
+a.btn{
+    margin: 30px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+}
+a.btn-first{
+background-color: rgb(90, 205, 180);
+color:snow;
+}
+a.btn-second{
+    background-color: transparent;
+    border: 1px solid blueviolet;
+    color: yellowgreen
+}
+a.btn:hover{
+    background: purple;
+    border: none;
+    color: snow;
+    box-shadow: 5px 5px 10px green;
+    transition: 0.3s;
+}
+
